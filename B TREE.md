@@ -17,9 +17,7 @@
 
 
 
-![1](C:\Users\dolly\Desktop\6.图片存储\B树\1.png)
-
-
+![1](pic/1.png)
 
 ## 2、插入
 
