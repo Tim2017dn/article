@@ -135,3 +135,15 @@ https://www.masterraghu.com/subjects/np/introduction/unix_network_programming_v1
 https://www.cnblogs.com/lojunren/p/3856290.html
 
 https://docs.microsoft.com/en-us/windows/win32/fileio/differences-in-local-and-network-i-o
+
+
+
+https://embetronicx.com/tutorials/linux/device-drivers/epoll-in-linux-device-driver/#Epoll_in_Linux_Device_Driver
+
+
+
+https://programmer.help/blogs/introduction-to-select-poll-epoll-i-o-multiplexing.html
+
+这篇很不错
+
+https://chowdera.com/2021/07/20210726203242441j.html
