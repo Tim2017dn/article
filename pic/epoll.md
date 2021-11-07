@@ -42,7 +42,7 @@ IO设备就是我们用于和电脑交互的硬件，包含输入设备：键盘
 
 figure 1：
 
-![graphics/06fig01.gif](./pic/06fig01.gif)
+![graphics/06fig01.gif](06fig01.gif)
 
 如图1所示，应用端的进程调用 recvfrom ,这个调用需要等内核完成以下两个步骤。
 
@@ -58,7 +58,7 @@ figure 1：
 
 figure 2：
 
-![graphics/06fig02.gif](./pic/06fig02.gif)
+![graphics/06fig02.gif](06fig02.gif)
 
 我们希望socket是不阻塞，我们需要让内核知道 “当收到IO操作，但数据就绪还没完成，放回一个error，而不是让用户进程sleep”。
 
@@ -70,7 +70,7 @@ figure 2：
 
 figure 3：
 
-![graphics/06fig03.gif](./pic/06fig03.gif)
+![graphics/06fig03.gif](06fig03.gif)
 
 如图三所示，应用进程首先阻塞在select这个调用里，等待数据准备好。当select收到这个socket是可读的返回（也就是数据ready了），这时recvfrom才发出第二个调用 recvfrom，等待数据拷贝完成。
 
