@@ -10,12 +10,6 @@ IO设备就是我们用于和电脑交互的硬件，包含输入设备：键盘
 
 我们接触到的IO方法，一般有标准库中的 流式IO ，文件IO，还有网络IO。
 
-这里简单归位两类IO：
-
-:one:标准IO
-
-:two:网络IO
-
 ## 1.2 输入
 
 在正式介绍IO模型之前，我们需要了解，对于一个标准IO的输入，计算机干了哪些。
@@ -99,7 +93,7 @@ int listenfd = socket(AF_INET, SOCK_STREAM, 0);
 
 # 二、select
 
-
+select 允许进程指引内核等待多个时间
 
 
 
@@ -134,3 +128,10 @@ posix 给出这两个概念的定义：
 
 
 
+io:
+
+https://www.masterraghu.com/subjects/np/introduction/unix_network_programming_v1.3/ch06lev1sec2.html
+
+https://www.cnblogs.com/lojunren/p/3856290.html
+
+https://docs.microsoft.com/en-us/windows/win32/fileio/differences-in-local-and-network-i-o
